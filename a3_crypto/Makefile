@@ -3,4 +3,4 @@ default:
 	g++ server.cpp -o server -lpthread -lssl3 -lcrypto
 
 clean:
-	rm client server enc
+	rm client server enc temp
